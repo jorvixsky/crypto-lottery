@@ -1,0 +1,3 @@
+[submodule "packages/blockscout-docker-compose"]
+	path = packages/blockscout-docker-compose
+	url = https://github.com/blockscout/blockscout.git
