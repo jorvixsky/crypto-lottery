@@ -12,7 +12,7 @@
     "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
     "chai": "^4.2.0",
     "dotenv": "^16.4.5",
-    "hardhat": "^2.22.6",
+    "hardhat": "^2.22.9",
     "hardhat-chai-matchers-viem": "^2.0.8",
     "hardhat-gas-reporter": "^1.0.8"
   },
