@@ -15,5 +15,9 @@
     "hardhat": "^2.22.6",
     "hardhat-chai-matchers-viem": "^2.0.8",
     "hardhat-gas-reporter": "^1.0.8"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "1.2.0",
+    "@openzeppelin/contracts": "5.0.2"
   }
 }
