@@ -13,10 +13,22 @@ const config: HardhatUserConfig = {
     },
   },
   etherscan: {
-    apiKey: process.env.ETHERSCAN_API_KEY ?? "<your-api-key>",
+    apiKey: {
+      localhost: "empty",
+    },
+    customChains: [
+      {
+        network: "localhost",
+        chainId: 31337,
+        urls: {
+          apiURL: "http://localhost/api",
+          browserURL: "http://localhost",
+        },
+      },
+    ],
   },
   networks: {
-    hardhat: {}
+    hardhat: {},
   },
   defaultNetwork: "localhost",
 };
